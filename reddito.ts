@@ -18,11 +18,11 @@ abstract class LavoratoreAutonomo {
   }
 
   abstract getUtileTasse(): number;
-  // faccio il calcolo per calcolare le tsse dell' inps
+  // faccio il calcolo per calcolare le tasse dell' inps
   getTasselnps(): number {
     return this.redditoannuolordo * (this.tasseinps / 100);
   }
-  // faccio il calcolo per calcolare le tsse dell' irpef
+  // faccio il calcolo per calcolare le tasse dell' irpef
   getTasselrpef(): number {
     return this.redditoannuolordo * (this.tasseirpef / 100);
   }
