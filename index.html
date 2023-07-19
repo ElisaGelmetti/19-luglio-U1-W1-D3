@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calcolo Reddito Lavoratori Autonomi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calcolo Reddito Lavoratori Autonomi</h1>
+      <div class="input-container">
+        <label for="reddito">Reddito annuo lordo:</label>
+        <input
+          type="number"
+          id="reddito"
+          placeholder="Inserisci reddito annuo lordo"
+        />
+        <button onclick="calcolaRedditoNetto()">Calcola Reddito Netto</button>
+      </div>
+      <div class="result-container">
+        <p>Reddito annuo netto: <span id="redditoNetto"></span> €</p>
+      </div>
+    </div>
+    <script src="reddito.js"></script>
+  </body>
+</html>
